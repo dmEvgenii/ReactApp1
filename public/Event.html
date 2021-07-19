@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+  integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+  crossorigin="anonymous">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/styles/normalize.css">
+    <link rel="stylesheet" href="/src/styles/styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="../src/styles/images/logo.png" class="header__logo logo">
+        <span class="header__name name">CoSport</span>
+        <div class="header__container container">
+            <ul class="header__navigation navigation">
+                <a href="" class="navigation__item">
+                    <li>Главная</li>
+                </a>
+                <a href="" class="navigation__item">
+                    <li>Спортплощадки</li>
+                </a>
+                <a href="" class="navigation__item">
+                    <li>Команды</li>
+                </a>
+                <a href="" class="navigation__item">
+                    <li>Мероприятия </li>
+                </a>
+                <a href="" class="navigation__item">
+                    <li>Пользователи</li>
+                </a>
+            </ul>
+        </div>
+        <button class="header__profile profile"><img src="/src/styles/images/profilePicture.png"></button>
+    </div>
+
+    <main>
+        <div class="container">
+            <span class="title">Мероприятия</span>
+            <form action="" class="form">
+                <input class="form__search search" type="text" name="text" placeholder="Я ищу...">
+                <button class="form__btn">Найти</button>
+            </form>
+
+            <div id="EventList"></div>
+
+        </div>
+
+        <div class="filter">
+            <div class="filter__sport sport">
+                <span class="sport__text">Вид спорта</span>
+                <img src="./images/Vector.png" class="sport__vector">
+            </div>
+
+            <div class="filter__sport sport">
+                <span class="sport__text">Место</span>
+                <img src="./images/Vector.png" class="sport__vector">
+            </div>
+
+            <div class="filter__sport sport">
+                <span class="sport__text">Дата</span>
+                <img src="./images/Vector.png" class="sport__vector">
+            </div>
+
+            <button class="main__see see">Показать (12)</button>
+        </div>
+    </main>
+
+</body>
+</html>

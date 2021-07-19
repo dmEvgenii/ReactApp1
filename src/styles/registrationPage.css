@@ -1,0 +1,25 @@
+
+.a{
+  border: none;
+  background-color: white;
+}
+
+.a:hover{
+  text-decoration: underline;
+}
+
+
+.regDiv{
+  width: 10%;
+}
+
+#RegButton{
+  background-color: #ff8700;
+  border-color: #ff8700;
+  box-shadow:  0 0 10px #ff8700;
+}
+
+#RegButton:hover{
+  background-color: #ffA540;
+  border-color: #ff8700;
+}

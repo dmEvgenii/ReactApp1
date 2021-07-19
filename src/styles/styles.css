@@ -1,0 +1,455 @@
+@font-face {
+  font-family: "Lato";
+  src: url("./fonts/Lato-Regular.woff2") format("woff2"),
+    url("./fonts/Lato-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./fonts/Lato-Bold.woff2") format("woff2"),
+    url("./fonts/Lato-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./fonts/Lato-Light.woff2") format("woff2"),
+    url("./fonts/Lato-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./fonts/Lato-Medium.woff2") format("woff2"),
+    url("./fonts/Lato-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.woff2") format("woff2"),
+    url("./fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Bold.woff2") format("woff2"),
+    url("./fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Light.woff2") format("woff2"),
+    url("./fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Medium.woff2") format("woff2"),
+    url("./fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope-Regular.woff2") format("woff2"),
+    url("./fonts/Manrope-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope-Bold.woff2") format("woff2"),
+    url("./fonts/Manrope-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope-Light.woff2") format("woff2"),
+    url("./fonts/Manrope-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope-Medium.woff2") format("woff2"),
+    url("./fonts/Manrope-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Regular.woff2") format("woff2"),
+    url("./fonts/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Bold.woff2") format("woff2"),
+    url("./fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Light.woff2") format("woff2"),
+    url("./fonts/Poppins-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Medium.woff2") format("woff2"),
+    url("./fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("./fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("./fonts/PlayfairDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("./fonts/PlayfairDisplay-Bold.woff2") format("woff2"),
+    url("./fonts/PlayfairDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 74px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 52px;
+}
+
+.logo {
+  margin-right: 2px;
+  margin-left: 14px;
+}
+
+.name {
+  font-family: "PlayfairDisplay", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #10375c;
+}
+
+.navigation {
+  display: flex;
+  margin-right: 270px;
+}
+
+.navigation__item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #222831;
+}
+
+.navigation__item:not(:last-child) {
+  margin-right: 38px;
+}
+
+.profile {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  padding-right: 76px;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 84px;
+  top: 400px;
+}
+
+.filter__sport {
+  display: flex;
+  width: 189px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sport__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.sport__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.sport__vector {
+  width: 22px;
+  height: 9px;
+  margin-top: -25px;
+}
+
+.see {
+  background-color: #0081fe;
+  width: 168px;
+  height: 56px;
+  border-radius: 10px;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.title {
+  margin-left: 250px;
+  margin-bottom: 50px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 61px;
+  color: #000000;
+}
+
+.form {
+  display: flex;
+  margin-top: 50px;
+}
+
+.search {
+  width: 639px;
+  height: 66px;
+  border: 2px solid #0a142f;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-right: 34px;
+  outline: none;
+  padding-left: 33px;
+  margin-bottom: 52px;
+}
+
+.search::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #222831;
+}
+
+.form__btn {
+  width: 167px;
+  height: 65px;
+  background-color: #a2a2a2;
+  border-radius: 10px;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  border: none;
+}
+
+.sport-block {
+  width: 840px;
+  height: 460px;
+  background-color: #fff;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.15);
+  border-radius: 23px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 66px;
+}
+
+.first-block {
+  display: flex;
+}
+
+.fitst-block__bb {
+  margin-left: 116px;
+  margin-top: 50px;
+  margin-right: 50px;
+  width: 144px;
+  height: 144px;
+  margin-bottom: 32px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 16px;
+  margin-top: 36px;
+}
+
+.info__description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  display: block;
+  width: 220px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 2px solid #222831;
+  border-bottom: 2px solid #222831;
+  margin-bottom: 16px;
+}
+
+.info__date {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.users {
+  display: flex;
+  margin-left: 145px;
+  margin-bottom: 7px;
+}
+
+.users__avatar {
+  margin-left: 25px;
+}
+
+.users__avatar {
+  width: 90px;
+  height: 90px;
+}
+
+.sport-block__count {
+  margin-left: 702px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.btn-block {
+  display: flex;
+  margin-left: 194px;
+}
+
+.btn-block__first {
+  background-color: #0081fe;
+  border-radius: 10px;
+  width: 186px;
+  height: 65.09px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  margin-right: 76px;
+  color: #fff;
+  border: none;
+}
+
+.btn-block__second {
+  background-color: transparent;
+  border-radius: 10px;
+  width: 186px;
+  height: 65.09px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  color: #0081fe;
+  border: none;
+}
+
+.users-first {
+  margin-left: 203px;
+}
+
+.description {
+  margin-left: 38px;
+}
